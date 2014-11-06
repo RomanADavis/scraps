@@ -1,0 +1,1 @@
+File.open("file.txt").each {|line| puts line}
