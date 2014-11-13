@@ -1,4 +1,6 @@
 require "socket"
+require "uri"
+require "json"
 
 server = TCPServer.open 2000
 loop {
